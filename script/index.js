@@ -7,15 +7,15 @@ const $error=document.querySelector('#error');
 
 
 $download.onclick = () => {
-  let link = document.createElement("a");
+  const link = document.createElement("a");
   link.href = $image.src;
   link.download = "Code QR generate";
   link.click();
 };
 $save.onclick = () => {
-  const usuarioInput = $search.value;
+  const userInput = $search.value;
   try {
-    const url = new URL(usuarioInput);
+    const url = new URL(userInput);
     $content.classList.remove('hidden');
     $content.classList.add('opacity-100', 'block');
     new QRious({
