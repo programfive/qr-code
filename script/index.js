@@ -16,7 +16,6 @@ $save.onclick = () => {
   const usuarioInput = $search.value;
   try {
     const url = new URL(usuarioInput);
-
     $content.classList.remove('hidden');
     $content.classList.add('opacity-100', 'block');
     new QRious({
