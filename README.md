@@ -20,4 +20,4 @@ Este proyecto es un generador de códigos QR simple y eficiente. Permite a los u
 
 1. Clona este repositorio en tu máquina local:
    ```bash
-   git clone https://github.com/tu-usuario/generador-qr.git
+   https://github.com/programfive/qr-code.git
