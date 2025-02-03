@@ -12,7 +12,7 @@ Este proyecto es un generador de códigos QR simple y eficiente. Permite a los u
 
 ## Tecnologías Utilizadas
 - **HTML**: Estructura de la página web.
-- **CSS**: Estilos y diseño de la interfaz.
+- **tailwindcss**: Estilos y diseño de la interfaz.
 - **JavaScript**: Lógica para generar y descargar el código QR.
 - **qrious.js**: Librería JavaScript para generar códigos QR de manera eficiente.
 
